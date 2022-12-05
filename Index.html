@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" Content="IE-edge">
+    <meta name="Viewport" control="width-device-width,initial-scale-1.0">
+    <title>Individual Website IMD311</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/196262b7ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo%20UiTM%20new%20(2).png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#biodata">Biodata</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>IMD311 Personal Webpage</p>
+            <h1>Hi, I'm <span>Puteri</span><br>from class IM1105D</h1>
+        </div>
+    </div>
+</div>
+<!-- ----------biodata----------- -->
+<div id="biodata">
+    <div class="container">
+        <div class="row">
+            <div class="biodata-col-1">
+                <img src="images/Screenshot%20(164).png" style="width: 400px; height: 500px";>
+            </div>
+            <div class="biodata-col-2">
+                <h1 class="sub-title"><span>Biodata</span></h1>
+                <p>The Information Management Program essentially strives to meet the demands of the knowledge and information workers who are essential to the information industries. Students are taught information literacy, information handling, information communication, and technological applications as a result. Therefore, I have taken and studied for a diploma in information management for two and a half years at University Technology Mara Sarawak, which consists of five semesters.</p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('about me')">About Me</p>
+                    <p class="tab-links" onclick="opentab('hobby and ambition')">Hobby and Ambition</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                </div>
+                <div class="tab-contents active-tab" id="about me">
+                    <ul>
+                        <li><span>Full Name</span><br>Puteri Nur-Taasha Binti Nawawi</li>
+                        <li><span>Birth/Gender</span><br>13 November 2002</li>
+                        <li><span>Gender</span><br> Female</li>
+                        <li><span>Address</span><br>No.3 Jalan Utama Kampung Iboi Ulu, Sadong Jaya, Sarawak.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="hobby and ambition">
+                    <ul>
+                        <li><span>Hobby</span><br>Reading and watching movies</li>
+                        <li><span>Favourite moments</span><br>Spending time with family</li>
+                        <li><span>Ambition</span><br>I want to be a succesful librarian whom can help many people in retrieving information.</li>
+                        <li><span>Wishlist</span><br>I want to be the best version of myself.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span><h2>Skills</h2></span></li>
+                        <li><span>Communication Skills</span><br>Malay(fluent)<br>English (moderate)<br>Chinese(Basic)</li>
+                        <li><span>Computer Skills</span><br>Microsoft Word (Excellent)<br>Microsoft Excel(Basic)<br>Microsoft PowerPoint(Moderate)<br>Adobe Photoshop(Basic)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!------------education------------>
+<div id="education">
+    <div class="container">
+        <h1 class="sub-title">Education</h1>
+        <div class="education-list">
+            <div>
+                <i class="fa-solid fa-school"></i>
+                <h2>Primary School</h2>
+                <p>2009-2014<br>I studied at SJK C Chung Hua Jemukan for 6 years<br>Where is SJK(C) Chung Hua Jemukan?<br>
+SJK(C) Chung Hua Jemukan is located at: D/A Ppd Samarahan, Jalan Dato Mohd Musa Kota Samarahan, 94600 Asajaya, Sarawak, Malaysia.</p>
+                <a href="images/education1.jpg"></a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-book"></i>
+                <h2>Secondary School</h2>
+                <p>2015-2019<br>Studied at SMK Sadong Jaya<br>The Sadong Jaya  Secondary School, often known as SMKSJ, is a brand-new school in the Sarawakian community of Iboi Sadong Jaya.<br>SPM Result: 4A 3B 1C</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-building-columns"></i>
+                <h2>University</h2>
+                <p>2020-now<br>Studied at Universiti Teknologi Mara<br>One of the three campuses of Universiti Teknologi MARA Sarawak Branch is the UiTM Samarahan Campus. Kota Samarahan, where the campus is situated, is around 20 kilometres from Kuching City.<br>GPA Result: 3.65</p>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------experience--------- -->
+<div id="experience">
+    <div class="container">
+        <h1 class="sub-title">My Experience</h1>
+        <div class="experience-list">
+            <div class="experience">
+                <img src="images/photo_2022-12-05_17-40-55.jpg">
+                <div class="layer">
+                    <h3> My School Experience</h3>
+                    <p>When I was in secondary school, I once participated in the marching programme and took second place.<br> Not only that,I was also given the opportunity to serve as a school prefect throughout my time in high school. <br>Through my experience as a school prefect, I've gained valuable insight into the importance of maintaining a strong academic record and how it impacts other grades.</p>
+                </div>
+            </div>
+            <div class="experience">
+                <img src="images/experience2.jpg">
+                 <div class="layer">
+                    <h3>Program/activity</h3>
+                    <p> I joined a programme called Kem Kepimpinan Pengawas in secondary school that taught me how to be independent and a good prefect. Not only that, but through enrolling in this programme, I've learned collaboration skills such as how to collaborate with others and communicate effectively.</p>
+                </div>
+            </div>
+            <div class="experience">
+                <img src="images/experience3.jpg">
+                 <div class="layer">
+                    <h3>Work Experience</h3>
+                    <p>I have been working and helping my family's business since I was very young, so I have plenty of hands-on experience in the workplace. Working with my family has taught me a lot, including how to deal with customers and how to make our business better. </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- --------Gallery--------- --> 
+<div id="gallery">
+    <div class="container">
+        <h1 class="sub-title">My Gallery</h1>
+        <div class="gallery-list">
+            <div class="experience">
+                <img src="images/smk%20sadong.jpeg">
+                 <div class="layer">
+                    <h3> My High School</h3>
+                    <p>SMK SADONG JAYA </p>
+                    <a href="https://youtu.be/Rb6JoeLUYnU"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="experience">
+                <img src="images/gallery2.jpeg">
+                 <div class="layer">
+                    <h3> My University</h3>
+                    <p>Universiti Teknologi Mara </p>
+                    <a href="images/gallery2.webp"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="experience">
+                <img src="images/Gallery%203.jpg">
+                 <div class="layer">
+                    <h3> My Classmates</h3>
+                    <p>IM1105D</p>
+                    <a href="images/gallery%203%20(2).jpg"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="sub-title"></h1>
+        <div class="gallery-list">
+            <div class="experience">
+                <img src="images/0099.jpg">
+                 <div class="">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="experience">
+                <img src="images/25.jpg">
+                 <div class="">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="experience">
+                <img src="images/8899.jpg">
+                 <div class="">
+                    <h3></h3>
+                    <p> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--- ------contact--------- -->   
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> pnurtaasha@gmail.com</p>
+                <p> <i class="fa-sharp fa-solid fa-phone"></i> 014-9575567</p>
+                <div class="Social-icons">
+                    <a href="https://web.facebook.com/puteri.n.taasha/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/TaashaNur"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/puterinurt/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@sasao1311?lang=en"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="images/Puteri%20Nur-Taasha%20Binti%20Nawawi%20CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea> 
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Ⓒ Puteri. Made with <i class="fa-solid fa-heart"></i> By Brackets</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+
+</script>
+    
+<script>
+    
+    var sidemenu = document.getElementById("sidemenu")
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+    
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby1sRnoR9uOim7O_Vg1ub8LSJ6LhRknWSGlUHX6HOfCPnqYTsyHmtcv0Grlfo662QaVBQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
